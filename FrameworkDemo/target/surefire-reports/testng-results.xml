@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="77126" started-at="2019-09-21T00:52:03Z" finished-at="2019-09-21T00:53:20Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="77126" started-at="2019-09-21T00:52:03Z" finished-at="2019-09-21T00:53:20Z">
+      <class name="home.TestLogInPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:home.TestLogInPage@17550481]" name="setUp" is-config="true" duration-ms="5304" started-at="2019-09-21T00:52:32Z" finished-at="2019-09-21T00:52:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestLogin(java.lang.String, java.lang.String)[pri:0, instance:home.TestLogInPage@17550481]" name="TestLogin" duration-ms="7551" started-at="2019-09-21T00:52:37Z" data-provider="getData" finished-at="2019-09-21T00:52:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ts@abc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TestLogInPage@17550481]" name="cleanUp" is-config="true" duration-ms="4626" started-at="2019-09-21T00:52:45Z" finished-at="2019-09-21T00:52:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:home.TestLogInPage@17550481]" name="setUp" is-config="true" duration-ms="5307" started-at="2019-09-21T00:52:49Z" finished-at="2019-09-21T00:52:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestLogin(java.lang.String, java.lang.String)[pri:0, instance:home.TestLogInPage@17550481]" name="TestLogin" duration-ms="6703" started-at="2019-09-21T00:52:54Z" data-provider="getData" finished-at="2019-09-21T00:53:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TestLogInPage@17550481]" name="cleanUp" is-config="true" duration-ms="4636" started-at="2019-09-21T00:53:01Z" finished-at="2019-09-21T00:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:home.TestLogInPage@17550481]" name="setUp" is-config="true" duration-ms="5308" started-at="2019-09-21T00:53:06Z" finished-at="2019-09-21T00:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getText()[pri:0, instance:home.TestLogInPage@17550481]" name="getText" duration-ms="5047" started-at="2019-09-21T00:53:11Z" finished-at="2019-09-21T00:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getText -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TestLogInPage@17550481]" name="cleanUp" is-config="true" duration-ms="4157" started-at="2019-09-21T00:53:16Z" finished-at="2019-09-21T00:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.TestLogInPage -->
+      <class name="home.TestHomePage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:home.TestHomePage@783e6358]" name="setUp" is-config="true" duration-ms="6726" started-at="2019-09-21T00:52:03Z" finished-at="2019-09-21T00:52:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="NavBar()[pri:0, instance:home.TestHomePage@783e6358]" name="NavBar" duration-ms="6573" started-at="2019-09-21T00:52:10Z" finished-at="2019-09-21T00:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavBar -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TestHomePage@783e6358]" name="cleanUp" is-config="true" duration-ms="290" started-at="2019-09-21T00:52:17Z" finished-at="2019-09-21T00:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:home.TestHomePage@783e6358]" name="setUp" is-config="true" duration-ms="5305" started-at="2019-09-21T00:52:17Z" finished-at="2019-09-21T00:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigate()[pri:0, instance:home.TestHomePage@783e6358]" name="navigate" duration-ms="9208" started-at="2019-09-21T00:52:22Z" finished-at="2019-09-21T00:52:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:home.TestHomePage@783e6358]" name="cleanUp" is-config="true" duration-ms="325" started-at="2019-09-21T00:52:31Z" finished-at="2019-09-21T00:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- home.TestHomePage -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
